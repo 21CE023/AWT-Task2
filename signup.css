@@ -1,0 +1,67 @@
+
+img{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin-top: -65px !important;
+    margin-left: -10px;
+    overflow: hidden;
+}
+
+form{
+    margin-left: 450px;
+    margin-top: 65px;
+    border: 3px solid rgba(225, 249, 187);
+    border-radius: 8px;
+    width: 500px;
+    background-color: white;
+    overflow: hidden;
+}
+
+div{
+    margin: 10px 0px 10px 30px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#fname,#Uname,#psw,#cpsw,#num,#email,#stateDropdown{
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.694);
+}
+#stateDropdown{
+    height: 30px;
+    width: 92%;
+    text-align: center;
+}
+
+
+h1{
+    margin: 40px 10px 20px 10px;
+    color: rgb(93, 201, 93);
+}
+
+input{
+    margin-top: 6px;
+}
+
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+#submit{
+    padding: 8px 18px 8px 18px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(85, 205, 85);
+    border-radius: 3px;
+    color: aliceblue;
+    border: 0px solid;
+}
